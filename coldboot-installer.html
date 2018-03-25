@@ -48,7 +48,7 @@ function initROP(init)
 		+fill_by_4bytes(0xC,dbyte00)
 		+coldboot_stereo_blind.convert()
 		+fill_by_4bytes(0xC,dbyte00)
-		+fill_by_16bytes(0x54,dbyte00)
+		+fill_by_16bytes(0x70,dbyte00)
 		+hexdw2bin(sp_exit)+fill_by_8bytes(0x8,dbyte41)+callsub(gadget12_addr,2,0,0,0,0,0,0,0,0,0x80)+syscall(sc_sm_shutdown,hard_reboot,0,0,0,0,0,0,0)
 		+unescape("\uFD7E");
 		while(xtra_data_addr===0)
@@ -95,7 +95,7 @@ function initROP(init)
 		store_idx_arr2[1]=(null_addr-flash_partition_addr+0x10)/2;
 		store_idx_arr2[2]=(null_addr-flash_partition_addr+0x14)/2;
 		stat_addr=null_addr+dword_size*0x3;
-		reboot_sf_addr=stat_addr+dword_size*0x9;
+		reboot_sf_addr=stat_addr+dword_size*0xB;
 //############################ Building stack frame ###############################################################
 		stack_frame=stack_frame_hookup()
 		+syscall(sc_fs_umount,flash_partition_addr,fs_addr,mount_path_addr,0,0,0,0,0)
