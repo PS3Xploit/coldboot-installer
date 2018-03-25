@@ -1,6 +1,6 @@
 # PS3Xploit v3 HAN Cold Boot Installer
 
-#(Supports OFW and CFW)
+(Supports OFW and CFW)
 
 <br/><br/>
 ![PS3Xploit v3 HAN Cold Boot Installer](https://i.imgur.com/e3GsLkU.png)
