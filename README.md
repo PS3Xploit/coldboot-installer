@@ -18,4 +18,5 @@ How To Use:
 
 
 Forum:
-http://www.psx-place.com/threads/ps3xploit-v3-han-cold-boot-installer-raf-ac3.17100/#post-112316
+http://www.psx-place.com/threads/ps3xploit-v3-han-cold-boot-installer-raf-ac3.17100/
+<br/>
